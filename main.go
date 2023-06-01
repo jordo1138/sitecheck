@@ -50,7 +50,7 @@ func main() {
 		results2 = append (results2, tmpResult)
     }
 	
-	p50, _ := stats.Percentile(results2, 50)
+/*	p50, _ := stats.Percentile(results2, 50)
 	p95, _ := stats.Percentile(results2, 95) 
 	p99, _ := stats.Percentile(results2, 99)
 	
@@ -58,5 +58,5 @@ func main() {
 	fmt.Printf("p50: \n", p50)
 	fmt.Printf("p95: \n", p95)
 	fmt.Printf("p99: \n", p99)
-
+*/
 }
